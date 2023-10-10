@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: lavender;
+    color: black;
+}
+
+body > a:first-child {
+    position: absolute;
+    top: -50px;
+}
+
+body > a:first-child:focus {
+    top: -5px;
+}
+
+.current {
+    color: darkcyan;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h2, h3 {
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkmagenta;
+    margin-left: 25px;
+}
+
+p {
+    line-height: 25px;
+    margin-left: 25px
+}
+
+img {
+    border: solid 5px darkblue;
+    padding: 10px;
+    margin: 20px;
+    border-top-right-radius: 30px;
+}
+
+li {
+    margin-left: 50px;
+    display: block;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
